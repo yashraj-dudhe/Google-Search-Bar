@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tab.css">
+    <title>New Tab</title>
+</head>
+
+<body>
+
+    <div id="weatherInfo">
+        <!-- Rendered via javascript -->
+    </div>
+
+    <form id="searchForm">
+        <div id="greeting">
+            <!-- Rendered via javascript -->
+        </div>
+        <input id="searchBox" placeholder="Search"></br>
+        <button id="searchButton">Google Search</button>
+        <button id="openGoogle">Open Google</button>
+    </form>
+
+    <div id="bookmarks">
+
+    </div>
+
+    <div>
+        <a title="Add Bookmark" href="#modal">
+            <button id="openBookmarksModalButton">
+                +
+            </button>
+        </a>
+    </div>
+
+
+    <!-- Modal -->
+    <div id="modal" class="modalDialog">
+        <div>
+            <!-- The 'X' to close the modal -->
+            <a href="#close" title="Close" class="close">X</a>
+            <h1>Bookmarks/Apps functionality coming soon</h1>
+            <!-- <p id="modalBookmarks">
+                You have no Bookmarks
+            </p> -->
+            <!-- Add bookmark form -->
+            <!-- <form id="addBookmarkForm">
+                <h2>Add a bookmark</h2>
+                <input id="bookmarkURL" placeholder="Enter website url (Eg: google.com)"></br>
+                <input id="bookmarkNameField" placeholder="Bookmark Name (Eg: Google)"></br>
+                <button id="addBookmarkButton">
+                    ADD
+                </button>
+            </form> -->
+
+        </div>
+    </div>
+
+    <script src="Tab.js"></script>
+</body>
+
+</html>
